@@ -6,13 +6,13 @@ namespace Assignment2
 {
     internal class Program
     {
+        public static TaiKhoanDangNhap dSTaiKhoan = new TaiKhoanDangNhap();
+        public static TaiKhoanDangNhap taiKhoanDangNhap;
         public static bool IsLogin;
         static void Main(string[] args)
         {
             Console.InputEncoding = Encoding.UTF8;
             Console.OutputEncoding = Encoding.UTF8;
-            TaiKhoanDangNhap dSTaiKhoan = new TaiKhoanDangNhap();
-            TaiKhoanDangNhap taiKhoanDangNhap = null;
             dSTaiKhoan.danhSachTaiKhoan = Seeding.dSTaiKhoan;
             while (true)
             {
