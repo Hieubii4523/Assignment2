@@ -27,7 +27,7 @@ namespace Assignment2
             {
                 Console.ForegroundColor = ConsoleColor.Green;
             }
-            Console.WriteLine($"Mã GD: {MaGiaoDich}, Tài Khoản Gửi: {TaiKhoanGui.SoTaiKhoan}, Tài Khoản Nhận: {TaiKhoanNhan.SoTaiKhoan}, Số tiền: {(LoaiGiaoDich == LoaiGiaoDich.Nhan ? "+" : "-")}{SoTien},Loại: {(LoaiGiaoDich == LoaiGiaoDich.Gui ? "Gửi" : "Nhận")}");
+            Console.WriteLine($"Mã GD: {MaGiaoDich}, Tài Khoản Gửi: {TaiKhoanGui.SoTaiKhoan}, Tài Khoản Nhận: {TaiKhoanNhan.SoTaiKhoan}, Số tiền: {(LoaiGiaoDich == LoaiGiaoDich.Nhan ? "+" : "-")}{SoTien} ,Loại: {(LoaiGiaoDich == LoaiGiaoDich.Gui ? "Gửi" : "Nhận")}");
             Console.ResetColor();
         }
     }
