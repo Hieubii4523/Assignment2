@@ -77,7 +77,8 @@ namespace Assignment2
                 MaGiaoDich = maGiaoDich,
                 TaiKhoanGui = nguoiGui.TaiKhoan,
                 TaiKhoanNhan = nguoiNhan.TaiKhoan,
-                LoaiGiaoDich = LoaiGiaoDich.Gui
+                LoaiGiaoDich = LoaiGiaoDich.Gui,
+                SoTien = soTien
             };
             nguoiGui.TaiKhoan.GiaoDichs.Add(giaoDichGui);
 
@@ -86,7 +87,8 @@ namespace Assignment2
                 MaGiaoDich = maGiaoDich,
                 TaiKhoanGui = nguoiGui.TaiKhoan,
                 TaiKhoanNhan = nguoiNhan.TaiKhoan,
-                LoaiGiaoDich = LoaiGiaoDich.Nhan
+                LoaiGiaoDich = LoaiGiaoDich.Nhan,
+                SoTien = soTien
             };
             nguoiNhan.TaiKhoan.GiaoDichs.Add(giaoDichNhan);
             Console.WriteLine("Giao dịch thành công!");
